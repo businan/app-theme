@@ -61,11 +61,26 @@ img {
   padding: 5px 0;
 }
 
-#mainPage {
+#services {
   margin: 40px 0;
 }
-#mainPage h2 {
+#services h2 {
   font-weight: bold;
+  margin-bottom: 20px;
+}
+#services h3 {
+  padding: 20px 0;
+}
+#services p {
+  padding-bottom: 20px;
+}
+#services ul li:nth-child(odd) {
+  background: #333;
+  color: #fff;
+}
+#services ul li:nth-child(even) {
+  background: #56a79a;
+  color: #fff;
 }
 
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=services.css.map */

@@ -1,0 +1,25 @@
+#services{
+    margin: 40px 0;
+
+    h2{
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    h3{
+        padding: 20px 0;
+    }
+
+    p{
+        padding-bottom: 20px;
+    }
+
+    ul li:nth-child(odd){
+        background: $showcaseBackgroundColor;
+        color: $thirdColor;
+    }
+    ul li:nth-child(even){
+        background: $primaryColor;
+        color: $thirdColor;
+    }
+}
