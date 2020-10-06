@@ -1,0 +1,112 @@
+body {
+  font-family: "Open-sans", sans-serif;
+  font-size: 17px;
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+.general {
+  width: 80%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.borderless {
+  border: none;
+  margin-bottom: -10px;
+  background-color: transparent;
+}
+
+.primary-text {
+  color: #56a79a;
+}
+
+#main-header {
+  border-bottom: 1px solid #56a79a;
+}
+#main-header nav a {
+  color: #888;
+  text-transform: uppercase;
+  margin-right: 15px;
+  padding-bottom: 0;
+}
+#main-header nav a:hover, #main-header nav .current {
+  color: #56a79a;
+  border-bottom: 3px solid #56a79a;
+}
+
+#company {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+#company button {
+  background: #222;
+}
+
+#footer {
+  background: #56a79a;
+  color: #fff;
+}
+
+#subHeader {
+  background-color: #333;
+}
+#subHeader h1 {
+  color: #fff;
+  padding: 5px 0;
+}
+
+#services {
+  margin: 40px 0;
+}
+#services h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#services h3 {
+  padding: 20px 0;
+}
+#services p {
+  padding-bottom: 20px;
+}
+#services ul li:nth-child(odd) {
+  background: #333;
+  color: #fff;
+}
+#services ul li:nth-child(even) {
+  background: #56a79a;
+  color: #fff;
+}
+
+#contact {
+  margin: 40px 0;
+}
+#contact h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#contact form {
+  background: #333;
+  color: #fff;
+  padding: 30px;
+}
+#contact .widthCustom {
+  width: 50%;
+}
+#contact button {
+  background: #222;
+  border: none;
+}
+
+@media (max-width: 767.98px) {
+  #contact .widthCustom {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */

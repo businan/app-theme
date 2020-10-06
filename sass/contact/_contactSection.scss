@@ -1,0 +1,27 @@
+#contact{
+    margin: 40px 0;
+    h2{
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    form{
+        background: $showcaseBackgroundColor;
+        color: $thirdColor;
+        padding: 30px;
+    }
+    .widthCustom{
+        width: 50%;
+    }
+    button{
+        background: $buttonColor;
+        border: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #contact .widthCustom {
+      width: 100% !important;
+      
+    }
+  }
+  
