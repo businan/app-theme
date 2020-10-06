@@ -1,0 +1,115 @@
+body {
+  font-family: "Open-sans", sans-serif;
+  font-size: 17px;
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+.general {
+  width: 80%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.borderless {
+  border: none;
+  margin-bottom: -10px;
+  background-color: transparent;
+}
+
+.primary-text {
+  color: #56a79a;
+}
+
+#main-header {
+  border-bottom: 1px solid #56a79a;
+}
+#main-header nav a {
+  color: #888;
+  text-transform: uppercase;
+  margin-right: 15px;
+  padding-bottom: 0;
+}
+#main-header nav a:hover, #main-header nav .current {
+  color: #56a79a;
+  border-bottom: 3px solid #56a79a;
+}
+
+#showcase {
+  background: url("././img/showcase.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom: 3px solid #56a79a;
+  margin-bottom: 30px;
+}
+#showcase .row {
+  height: 600px;
+}
+#showcase .row .custom {
+  background: #333;
+  color: #fff;
+  border-radius: 90px;
+  padding: 20px;
+  opacity: 0.8;
+}
+#showcase .row .custom h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding-bottom: 20px;
+}
+#showcase .row .custom p {
+  color: #ccc;
+  margin: 0;
+}
+
+@media (max-width: 556px) {
+  #showcase .row .custom h1 {
+    font-size: 2rem;
+  }
+}
+#features h2 {
+  font-size: 2rem;
+  margin: 0;
+  padding-bottom: 10px;
+}
+#features p {
+  color: #888;
+  margin: 0;
+  margin-bottom: 40px;
+}
+#features .fa {
+  font-size: 3rem;
+  color: #56a79a;
+  margin-bottom: 10px;
+}
+
+#info {
+  background: url(././img/info-bg.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+}
+#info h2 {
+  font-size: 2rem;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+#company {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+#company button {
+  background: #222;
+}
+
+#footer {
+  background: #56a79a;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

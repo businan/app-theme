@@ -1,0 +1,32 @@
+#showcase{
+    background: url('././img/showcase.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-bottom: 3px solid $primaryColor;
+    margin-bottom: 30px;
+    .row{
+        height: 600px;
+        .custom{
+            background: $showcaseBackgroundColor;
+            color: $thirdColor;
+            border-radius: 90px;
+            padding: 20px;
+            opacity: 0.8; 
+            h1{
+            font-size: 3rem;
+            margin: 0;
+            padding-bottom: 20px;
+        }
+        p{
+            color: $secondaryColor;
+            margin: 0;
+        }
+        }
+        
+    }
+}
+@media (max-width:556px){
+    #showcase .row .custom h1{
+        font-size: 2rem;
+    } 
+}
