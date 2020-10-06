@@ -1,0 +1,16 @@
+#main-header{
+    border-bottom: 1px solid $primaryColor;
+    nav{
+        a{
+           color: $navFeaturesColor; 
+           text-transform: uppercase;
+           margin-right: 15px;
+           padding-bottom: 0;
+        }
+        a:hover, .current{
+            color: $primaryColor;
+            border-bottom: 3px solid $primaryColor;
+        }
+        
+    }
+}

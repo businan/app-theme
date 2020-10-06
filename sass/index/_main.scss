@@ -1,0 +1,24 @@
+body {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    padding: 0;
+    margin: 0;
+}
+.general{
+    width: 80%;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+    
+.borderless{
+    border: none;
+    margin-bottom: -10px;
+    background-color: transparent;
+}
+
+.primary-text{
+    color: $primaryColor;
+}
