@@ -1,20 +1,22 @@
 # Development Strategy
 
-> `name-of-project`
+> AppTheme
 
-write a short description of your project:
-- who would want to use it?
-- why would they want to use it?
+- Your company has recently started on a project that aims to create a company website page. So you and your colleagues have started to work on the project.
 
 ## Wireframe
 
 <!-- include a wireframe for your project in this repository, and display it here -->
 <!-- wireframe.cc is a good site for getting started with wireframes -->
-![wireframe]()
+![wireframe](./img/dev-strategy/1.png)
+-
+![wireframe](./img/dev-strategy/2.png)
+-
+![wireframe](./img/dev-strategy/3.png)
+-
+![wireframe](./img/dev-strategy/4.png)
 
-## 0. Set-Up
 
-__A User can see my initial repository and live demo__
 
 ### Repo
 
@@ -22,27 +24,34 @@ __A User can see my initial repository and live demo__
 - Write initial, basic README
 - Turn on GitHub Pages
 
-## 1. __
 
-__full user story description__
 
 ### Repo
 
-what branch(es) did you work on?
+Create branch for each page (index, about, services, contact)
 
 ### HTML
 
-what did you change in the HTML and why?
+Create Html structure on each branch
 
 ### CSS
 
-what did you change in the CSS and why?
+Create Css structure for every page on each branch
 
-## 2. ...
+### Instruction
 
-...
+1. Create one issue per step, move them to the board
+2. For each step:
 
-...
+- move that issue into in progress
+- create a new branch locally
+- write your new code on that branch
+- push the branch to your repository
+- create a PR linked to this issue
+- merge the PR, closing this step's issue
+- move the issue into done
+- pull the new master branch to your computer
+- continue to the next step
 
 ## Finishing Touches
 
